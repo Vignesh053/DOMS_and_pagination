@@ -6,10 +6,18 @@ header{
 }
 
 body{
-    background-color: #eef3f9;
+    background-color: #537692;
 }
 
-#cardContainer, #pagination{
+#description{
+    color: #b3cde4;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 2px 2px 5px #000000; /* Example shadow: horizontal offset, vertical offset, blur radius, color */
+}
+
+
+#cardContainer, #buttons{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
